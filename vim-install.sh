@@ -36,3 +36,4 @@ cd vim
 
 make VIMRUNTIMEDIR=/usr/share/vim/vim74
 make install
+echo "Completed successfully"
