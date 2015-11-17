@@ -6,7 +6,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.box_version = "1.0.2"
 
-  config.vm.provision :shell, path: "../vim-install/vim-install.sh"
+  config.vm.provision :shell, path: "vim-install.sh"
 
   config.vm.network :private_network, :ip => "192.168.50.10", :auto_config => true
 
